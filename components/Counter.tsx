@@ -13,7 +13,7 @@ export const Counter: FunctionComponent<{ start: number }> = ({ start }) => {
           counter.set(counter.get() + 1);
           console.log("Calling server function now");
 
-          const response = await hello();
+          const response = await hello("Hello");
           console.log("Response from server:", response);
         }}
       >
