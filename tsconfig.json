@@ -1,0 +1,6 @@
+{
+  "extends": "renku/tsconfig",
+  "compilerOptions": {
+    "jsxImportSource": "renku"
+  }
+}
